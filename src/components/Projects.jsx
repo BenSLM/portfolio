@@ -38,7 +38,7 @@ const Projects = () => {
       title: 'Proyecto Prueba 4',
       description: 'Descripción del proyecto de prueba. Este es un placeholder para mostrar el diseño de las cards.',
       image: placeholderImage,
-      technologies: ['React', 'Bootstrap', 'Firebase'],
+      technologies: ['React', 'Bootstrap', 'Express'],
       demoLink: '#',
       delay: 400
     }
