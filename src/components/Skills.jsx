@@ -29,7 +29,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-5 bg-dark">
       <div className="container">
-        <h2 className="text-white text-center mb-5" data-aos="fade-down">Mis Habilidades</h2>
+        <h2 className="text-center mb-5" data-aos="fade-down">Mis Habilidades</h2>
         <div className="row justify-content-center text-center g-4">
           {skills.map((skill, index) => (
             <div 

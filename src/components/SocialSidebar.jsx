@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faInstagram, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../styles/SocialSidebar.css';
 
 const SocialSidebar = () => {
@@ -13,23 +13,8 @@ const SocialSidebar = () => {
           </a>
         </li>
         <li>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-        </li>
-        <li>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </li>
-        <li>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <FontAwesomeIcon icon={faFacebook} />
           </a>
         </li>
         <li className="social-line">

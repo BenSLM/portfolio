@@ -1,7 +1,19 @@
 #skills {
   background-color: #1e1f23;
+  padding: 4rem 0;
 }
 
 #skills h2 {
   font-weight: 700;
+  color: #1abc9c;
+  margin-bottom: 3rem;
+}
+
+.skill-icon {
+  color: #1abc9c;
+  transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+  transform: translateY(-10px);
 } 
