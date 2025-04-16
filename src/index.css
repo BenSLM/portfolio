@@ -22,12 +22,30 @@ a:hover {
   color: #535bf2;
 }
 
+html, body, #root {
+  background-color: #292a2d;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
 body {
   background-color: #292a2d;
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Asegurar que todas las secciones tengan fondo oscuro */
+section {
+  background-color: #292a2d;
+}
+
+#skills, #contact, footer {
+  background-color: #1e1f23;
 }
 
 h1 {
@@ -69,8 +87,9 @@ button:focus-visible {
 
 /* Establece márgenes pequeños a los lados en pantallas grandes */
 .container-custom {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
 /* No aplicar márgenes en pantallas pequeñas */
