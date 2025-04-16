@@ -8,37 +8,37 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-commerce App',
-      description: 'Tienda online con React, Node.js y MongoDB. Incluye sistema de pagos y gestión de usuarios.',
+      title: 'Proyecto Prueba 1',
+      description: 'Descripción del proyecto de prueba. Este es un placeholder para mostrar el diseño de las cards.',
       image: placeholderImage,
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      technologies: ['React', 'CSS', 'JavaScript'],
       demoLink: '#',
       delay: 100
     },
     {
       id: 2,
-      title: 'Portfolio Website',
-      description: 'Diseño moderno para un fotógrafo profesional usando React y animaciones avanzadas.',
+      title: 'Proyecto Prueba 2',
+      description: 'Descripción del proyecto de prueba. Este es un placeholder para mostrar el diseño de las cards.',
       image: placeholderImage,
-      technologies: ['React', 'CSS3', 'AOS'],
+      technologies: ['HTML', 'CSS', 'JavaScript'],
       demoLink: '#',
       delay: 200
     },
     {
       id: 3,
-      title: 'Dashboard Admin',
-      description: 'Panel de administración con gráficos interactivos, tablas dinámicas y gestión de datos.',
+      title: 'Proyecto Prueba 3',
+      description: 'Descripción del proyecto de prueba. Este es un placeholder para mostrar el diseño de las cards.',
       image: placeholderImage,
-      technologies: ['React', 'Chart.js', 'Material UI'],
+      technologies: ['React', 'Node.js', 'MongoDB'],
       demoLink: '#',
       delay: 300
     },
     {
       id: 4,
-      title: 'App de Entretenimiento',
-      description: 'Aplicación de streaming con catálogo de películas y series, integración con APIs externas.',
+      title: 'Proyecto Prueba 4',
+      description: 'Descripción del proyecto de prueba. Este es un placeholder para mostrar el diseño de las cards.',
       image: placeholderImage,
-      technologies: ['React', 'API REST', 'Firebase'],
+      technologies: ['React', 'Bootstrap', 'Firebase'],
       demoLink: '#',
       delay: 400
     }
